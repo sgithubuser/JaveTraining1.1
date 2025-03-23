@@ -36,7 +36,6 @@ public class SeleniumHelper {
 
     // Method to get the page load timeout duration (can be customized)
     private Duration getPageLoadTimeoutDuration() {
-        // Return the timeout duration in seconds (e.g., 30 seconds)
         return SECONDS_HUNDRED_TWENTY_TIMEOUT;
     }
     public WebElement waitUntilElementVisible(By locator, Duration timeoutInSeconds) {

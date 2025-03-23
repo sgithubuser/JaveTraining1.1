@@ -6,7 +6,7 @@
             </run>
         </groups>
         <classes>
-            <class name="ecommerce.tests.Task6LoginTest"/>
+            <class name="testscripts.tests.Task6LoginTest"/>
 
         </classes>
     </test>

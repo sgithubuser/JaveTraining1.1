@@ -3,7 +3,6 @@ package Constants;
 public final class Constants {
 
     private Constants() {
-        // restrict instantiation
     }
 
     public static final String BASE_URL = "https://p0.d.hmr.sophos.com";

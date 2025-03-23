@@ -1,4 +1,4 @@
-package ecommerce.utils;
+package testscripts.utils;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
@@ -20,7 +20,7 @@ public class WebDriverManagerUtils {
             if (browser.equalsIgnoreCase("chrome")) {
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("disable-infobars");
-                System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "CustomDriver/chrome/chromedriver");
 
                 // Initialize WebDriver
                 driver = new ChromeDriver(options);
