@@ -1,0 +1,13 @@
+<suite name="Functional Tests">
+    <test name="Regression Tests">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="ecommerce.tests.Task6LoginTest"/>
+
+        </classes>
+    </test>
+</suite>
