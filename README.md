@@ -21,3 +21,4 @@ This is done named as Task6  in src >> test >> java >> testscrips
 Important Info 
 - For all testscripts, page object is created. 
 - Global Selenium helper class is aslo created for selenium operations being used in tests
+- Custom exception, Constants, Utils are also placed in separate directories. Currently in test directory only for better visibility and understanding
