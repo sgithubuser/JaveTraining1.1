@@ -9,8 +9,8 @@ public class Training2_HashMap_Task3 {
         Map<String, Integer> map = new HashMap<>();
 
         // Uncomment below lines to add elements and test
-//         map.put("Apple", 1);
-//         map.put("Banana", 2);
+//         map.put("P", 1);
+//         map.put("B", 2);
 
 
         if (map.isEmpty()) {
